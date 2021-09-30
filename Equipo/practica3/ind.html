@@ -1,0 +1,76 @@
+<script>
+
+    //--
+    //var a=["Terror","La Monja","Masacretexas","Saw","The boy","Viernes 13",];
+    //var b=["Accion","R&F5","Infinite","Jhon Wick","Venom","Lucy"];
+    //var c=["Comedia","Jumanji","Buenos Vecinos","Guerra de papas","Este es el fin","Spencer"];
+
+    //console.log(a);
+
+    //for( var  x  =  0 ;  x  <  a . longitud ;  x ++ ){
+    //    console.log(a[x]);
+
+var pr=prompt("¿Que quieres ver hoy?");
+
+var peli={
+
+    "genero":{
+    "Terror":{
+        "Peliculas":"Coleccion",
+        "pelicula1":"La Monja",
+        "pelicula2":"Masacre en texas",
+        "pelicula3":"The boy",
+        "pelicula4":"Viernes 13",
+        "pelicula5":"Saw",
+    },
+},
+    "genero2" : {
+    "Accion":{
+        "pelicula5":"R&F5",
+        "pelicula6":"Infinite",       
+        "pelicula8":"Venom",
+        "pelicula9":"Lucy",
+        "pelicula10":"The 100",
+    },
+},
+    "genero3":{
+        "Comedia":{
+        "pelicula11":"Jumanji",
+        "pelicula12":"Buenos Vecinos",
+        "pelicula13":"Guerra de papas",
+        "pelicula14":"Este es el fin",
+        "pelicula15":"Spencer",   
+    },
+},
+}
+switch (pr) {
+    case"genero":
+        console.log(["Terror"]);
+    break;
+        console.log("No hay nada que ver");
+
+    case"genero2":
+        console.log(["Accion"]);
+    break;
+        console.log("No hay nada que ver ");
+
+    case"genero3":
+        console,log(["Comedia"]);
+    break;
+        console.log("No hay nada que ver ");
+
+    default:
+        break;
+}
+
+
+console.log(peli);
+
+
+
+        
+
+
+
+
+</script>
